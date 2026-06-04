@@ -1,7 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Space_Mono, Inter, Bebas_Neue, Fraunces } from "next/font/google";
-// @ts-expect-error CSS file is handled by Next.js
-import "./globals.css";
+import "@/app/globals.css";
 
 const geistSans = Inter({
   subsets: ["latin"],
