@@ -103,11 +103,13 @@ export function HeroSection() {
               View Projects
             </Link>
 
-            {/* Resume (replace later with actual PDF) */}
+            {/* Resume*/}
             <a
               href="/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-5 py-2.5 border border-border/50 text-muted-foreground rounded-md text-xs tracking-widest uppercase hover:text-foreground transition-all"
-            >
+              >
               <FileText className="w-3.5 h-3.5" />
               Resume
             </a>
