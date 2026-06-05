@@ -2,7 +2,7 @@ export function AboutSection() {
   const stats = [
     { value: "3+", label: "Projects" },
     { value: "4", label: "Core Technologies" },
-    { value: "2026", label: "Expected Graduation" },
+    { value: "2028", label: "Expected Graduation" },
   ];
 
   return (
